@@ -1,0 +1,59 @@
+/*Neutralidad*/
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	display:block;
+	background: #fff;
+}
+
+header
+{
+	display: block;
+}
+
+body
+{
+	margin: 0 auto;
+	width: 960px;
+	background: #ffc;
+}
+
+/*Etiquetas estructurales*/
+header
+{
+	height: 90px;
+	background: #cff;
+}
+
+/*Estilos*/
+h1
+{
+	text-align: center;
+	color: #33F;
+}
+
+h2
+{
+	text-align: center;
+	color: #09F;
+}
+
+h3
+{
+	clear: both;
+	text-align: center;
+	color: #AD9A27;
+	font-size: .8em;
+	padding-top: 1em;
+}
+
+article
+{
+	float:left;
+	width: 70%;
+}
