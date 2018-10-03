@@ -1,0 +1,171 @@
+/*Comentarios en CSS*/
+@charset "utf-8";
+*
+{
+	margin: 0
+}
+
+body
+{
+	background-image: url(../imagenes/Universo.jpg);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+p
+{
+	margin-top: 2em;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 2em;
+	border: 2px solid #000;
+	padding: 1em;
+}
+
+h1
+{
+	font-size: 250%;
+	line-height: 2em;
+	color: red;
+	margin: 0 4em;
+	border-bottom: 5px solid #f10;
+}
+
+h2
+{
+	font-size: 200%;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #fff;
+}
+
+a:visited
+{
+	color: #666666;
+}
+
+a:hover
+{
+	color: #ffff66;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: white;
+	background-color: #F63;
+}
+
+#encabezado
+{
+	border: 1px solid #cccccc;
+	background-color: #F27F05;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#articulo
+{
+	border: 1px solid #cccccc;
+	background-color: #bbbbbb;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#contenido
+{
+	background-color: #F2B705;
+	border: 1px solid #4E96A6;
+	font-family: Giorgia, "Times New Roman", Times, serif;
+	width: 80%
+	margin:0 auto;
+}
+
+#caracteristicas
+{
+	background-color: white;
+	border: 0px solid #A6A644;
+}
+
+#auxiliar
+{
+	background-color: #61DFC9;
+}
+
+#piedepagina
+{
+	background-color: #FF00FF;
+}
+
+img
+{
+	vertical-align: center;
+	border: 2px solid #f10;
+	padding: 2px;
+}
+
+#menu
+{
+	text-align: center;
+	margin: 10px auto;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#menu a
+{
+	color: #000;
+	background-color: #ffeda0;
+	padding: 4px 8px 4px 8px;
+	border: 1px solid #8c8c8c;
+}
+
+#menu a:hover
+{
+	text-decoration: none;
+	color:#000;
+	background-color: #bbbbbb;
+	border-bottom: none;
+}
+
+#menu li
+{
+	display: inline;
+	margin: 0;
+}
+
+.izq
+{
+	float:left;
+	padding: 1px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.der
+{
+	vertical-align: center;
+	float:right;
+	padding: 3px;
+	margin-left: : 10px;
+	margin-bottom: 10px;
+	border:0px;
+}

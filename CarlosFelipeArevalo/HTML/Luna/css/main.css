@@ -1,0 +1,100 @@
+/*Neutralidad*/
+html, body, article, footer, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{
+	display:block;
+}
+
+header
+{
+	display: block;
+}
+
+body
+{
+	margin: 0 auto;
+	width: 1580px;
+	background: #ffc;
+}
+
+/*Etiquetas estructurales*/
+header
+{
+	height: 90px;
+	background: #cff;
+}
+
+/*Estilos*/
+h1
+{
+	text-align: center;
+	color: #33F;
+}
+
+h2
+{
+	text-align: center;
+	color: #09F;
+}
+
+h3
+{
+	clear: both;
+	text-align: center;
+	color: #AD9A27;
+	font-size: .8em;
+	padding-top: 1em;
+}
+
+section
+{
+	height: 460px;
+	background: #789AA1;
+}
+
+.der
+{
+	float:right;
+	margin-left: 1em;
+}
+
+.izq
+{
+	float: left;
+	margin-right: 1em;
+}
+
+p
+{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+header, article, aside, footer, h3
+{
+	display: block;
+}
+
+article
+{
+	float:left;
+	width: 70%;
+}
+
+aside
+{
+	width: 30%;
+	float: right;
+}
+
+footer
+{
+	height: 1px;
+	background: #304345;
+}
